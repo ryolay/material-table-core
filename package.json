@@ -1,11 +1,11 @@
 {
-  "name": "@material-table/core",
+  "name": "@material-table/corev3",
   "publishConfig": {
     "access": "public"
   },
-  "url": "https://material-table-core.github.io/",
-  "version": "6.3.2",
-  "description": "Datatable for React based on https://material-ui.com/api/table/ with additional features",
+  "url": "https://github.com/ryolay/material-table-core",
+  "version": "6.3.3",
+  "description": "Datatable for React based on https://material-ui.com/api/table/ with additional features ( Fork adaptation for version 3 )",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
   "files": [
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/material-table-core/core.git"
+    "url": "git+https://github.com/ryolay/material-table-core.git"
   },
   "keywords": [
     "react",
@@ -50,12 +50,12 @@
     "datatable",
     "table"
   ],
-  "author": "Mehmet Baran, @material-table/core contributors",
+  "author": "Mehmet Baran, @material-table/core contributors | eEAT Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://material-table-core.github.io/"
+    "url": "https://github.com/ryolay/material-table-core"
   },
-  "homepage": "https://material-table-core.github.io/",
+  "homepage": "https://github.com/ryolay/material-table-core",
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
@@ -106,17 +106,17 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.19.0",
-    "@date-io/core": "^2.16.0",
-    "@date-io/date-fns": "^2.16.0",
+    "@date-io/core": "^3.0.0",
+    "@date-io/date-fns": "^3.0.0",
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@hello-pangea/dnd": "^16.0.0",
     "@mui/icons-material": ">=5.10.6",
     "@mui/material": ">=5.11.12",
-    "@mui/x-date-pickers": "^5.0.3",
+    "@mui/x-date-pickers": "^6.19.0",
     "classnames": "^2.3.2",
-    "date-fns": "^2.29.3",
+    "date-fns": "^3.2.0",
     "debounce": "^1.2.1",
     "deep-eql": "^4.1.1",
     "deepmerge": "^4.2.2",
