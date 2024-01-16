@@ -1,5 +1,5 @@
 {
-  "name": "@material-table/corev3",
+  "name": "material-table-core-v3",
   "publishConfig": {
     "access": "public"
   },
